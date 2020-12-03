@@ -1,6 +1,5 @@
 /**@jsx h */
 import { render, h } from 'preact';
-import {motion} from 'framer-motion'
 import { Link } from 'wouter';
 
 
@@ -13,8 +12,8 @@ export default ({})=>{
                 <span>HOME</span>
             </Link>
             
-            <Link to="/shop">
-                <span>SHOP</span>
+            <Link to="/projects">
+                <span>PROJECTS</span>
             </Link>
             
             <Link to="/things">

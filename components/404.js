@@ -1,6 +1,5 @@
 /**@jsx h */
 import { render, h } from 'preact';
-import {motion} from 'framer-motion'
 import { Link } from 'wouter';
 
 

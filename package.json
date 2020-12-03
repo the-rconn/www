@@ -12,6 +12,7 @@
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "cssnano": "^4.1.10",
+    "parcel": "^1.12.4",
     "sass": "^1.29.0"
   },
   "scripts": {
@@ -19,7 +20,7 @@
     "build": "parcel build public/index.html --out-dir public",
     "clean": "rm -rf build dist",
     "deploy:pre": "vc",
-    "deploy:prod" : "vc --prod"
+    "deploy:prod": "vc --prod"
   },
   "alias": {
     "react": "preact/compat"

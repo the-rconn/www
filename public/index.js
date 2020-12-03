@@ -3,7 +3,7 @@ import { render, h } from 'preact';
 import { Route, Router, Switch } from 'wouter'
 import Header from '../components/Header';
 import Main from '../components/Main';
-import Shop from '../components/Shop';
+import Projects from '../components/Projects';
 import NotFound from '../components/404'
 function App() {
 	return <div>
@@ -12,8 +12,8 @@ function App() {
 			<Route path="/">
 				<Main />
 			</Route>
-			<Route path="/shop">
-				<Shop />
+			<Route path="/projects">
+				<Projects />
 			</Route>
 			<Route>
 				<NotFound />
