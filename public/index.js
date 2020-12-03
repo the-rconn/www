@@ -7,10 +7,12 @@ import Projects from '../components/Projects';
 import NotFound from '../components/404'
 import Thing from '../components/Thing';
 function App() {
-    const [loc, setLoc] = useLocation()
-    console.log(loc);
+    const [loc, setLoc] = useLocation();
+    (
+        document.title = `Rconn - ${loc.split('/')[1].split('').map((c,i)=>i==0?c.toUpperCase():c).join('') || 'Home'}`
+    )
 	return <div>
-		{loc != '/thing' && <Header />}
+        {(loc != '/thing') && <Header />}
 		<Switch>
 			<Route path="/">
 				<Main />
