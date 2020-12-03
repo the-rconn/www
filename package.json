@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "framer-motion": "^2.9.5",
     "preact": "^10.5.7",
     "wouter": "^2.6.0"
   },

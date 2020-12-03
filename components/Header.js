@@ -15,10 +15,6 @@ export default ({})=>{
             <Link to="/projects">
                 <span>PROJECTS</span>
             </Link>
-            
-            <Link to="/things">
-                <span>THINGS</span>
-            </Link>
         </nav>
     </header>
 }

@@ -71,3 +71,37 @@ main{
 .NotFound{
     
 }
+
+.Thing{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation{
+    z-index: 999;
+    .red{
+        animation: red 10ms infinite alternate ;
+    }
+
+    .blue{
+        animation: blue 10ms infinite alternate;
+    }
+}
+
+
+@keyframes blue{
+    to{
+        fill : white
+    }
+}
+
+@keyframes red{
+    to{
+        fill : blue
+    }
+}
