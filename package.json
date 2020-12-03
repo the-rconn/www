@@ -1,0 +1,31 @@
+{
+  "name": "hellowmr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "framer-motion": "^2.9.5",
+    "preact": "^10.5.7",
+    "react": ">=16.8",
+    "react-dom": ">=16.8",
+    "wouter": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "sass": "^1.29.0",
+    "wmr": "^1.0.0"
+  },
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "wmr build",
+    "serve": "wmr serve --http2"
+  },
+  "alias": {
+    "react": "preact/compat"
+  },
+  "babel": {
+    "jsx": "h"
+  }
+}
