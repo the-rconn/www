@@ -20,8 +20,8 @@
   },
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "wmr build",
-    "serve": "wmr serve --http2"
+    "build": "parcel build public/index.html",
+    "clean": "rm -rf build dist"
   },
   "alias": {
     "react": "preact/compat"
